@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_usuario" value="name:id_usuario;datatype:int,name:usuario;datatype:string,name:clave;datatype:int,name:nombre;datatype:string" />
+	<infoitem key="UD_administrativo" value="name:id;datatype:int,name:nombreA;datatype:string,name:cedulaA;datatype:string,name:cargoA;datatype:string" />
+	<infoitem key="UD_pdocente" value="name:id;datatype:int,name:nombre;datatype:string,name:cedula;datatype:string,name:direccion;datatype:string,name:telefono;datatype:string,name:grado;datatype:string" />
+</info>

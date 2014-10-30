@@ -1,0 +1,739 @@
+/* Retina display HD images */
+@media only screen and (-webkit-device-pixel-ratio:2) {
+
+}
+
+/* less than 1024 */
+@media only screen and (max-width: 1024px) {
+
+	body { overflow:auto; }
+	
+	.arrow_down_container { display:none; }
+	
+	.gototop { display:none !important; }
+	
+	.wrapper { min-width:0px; }
+	
+	.topmenu {  }
+	
+	.topmenu .header_container {
+		margin-top:0px;
+	}
+	
+	.wrapper.hero { margin-top:73px; }
+	
+	.wrapper.hero .toys { }
+	
+	.content {
+		width: 93.75%;
+		min-width: 93.75%;
+		padding: 0px 32px;
+		margin: auto;
+	}
+	
+	.wrapper.hero .content {
+		
+	}
+	
+	.wrapper.hero .content .top_intro {
+		width:75%;
+		height:auto;
+		left: 50%;
+		top: 50%;
+		margin-left: -50%;
+		margin-top: -50%;
+		position:absolute;
+		display:block;
+	}
+	
+	.carousel .carousel_arrow {
+		visibility:hidden;
+	}
+	
+	.wrapper.about .content {
+		min-height:0px;
+	}
+	
+	.wrapper.who { }
+	.wrapper.who .bg_who { display:none; }
+	.wrapper.who .content .left { width:100%; }
+	
+	.wrapper.buy .button_container {
+		background:none;
+	}
+	.wrapper.buy p {
+		width:100%;
+	}
+	
+	.wrapper.share .footer .footer_content {
+		width: 93.75%;
+		min-width: 93.75%;
+		margin: auto;
+	}
+	
+	.wrapper.share .footer .footer_content .left {
+		display:none;
+	}
+	
+	.wrapper.share .footer .footer_content .right {
+		float:left;
+	}
+	
+}
+
+@media only screen and (max-width: 1020px) {
+	.titulo-escudo{ margin-top:460px; margin-left:35%; }
+	.topmenu,
+	.topmenu .header_container {
+		width:100%;
+		min-width:0px;
+	}
+	.topmenu .header_content {
+		min-width:0px;
+		width:95%;
+	}
+	.logo-gracias{
+	margin-top:-250px;
+	}
+	.boton-gracias{
+	margin-left:-20px;
+	}
+}
+@media only screen and (max-width: 980px) {
+	.titulo-escudo{ margin-top:460px; margin-left:33%; }
+	.logo-gracias{
+		margin-left:20%;
+	margin-top:-250px;
+}
+}
+@media only screen and (max-width: 960px) {
+	.titulo-escudo{ margin-top:460px; margin-left:33%; }
+	.logo-gracias{
+		margin-left:20%;
+	margin-top:-250px;
+}
+}
+@media only screen and (max-width: 870px) {
+	.titulo-escudo{ margin-top:460px; margin-left:30%; }
+	.logo-gracias{
+	margin-left:15%;
+	margin-top:-250px;
+	}
+	.boton-gracias{
+	margin-left:-10px;
+	}
+}
+@media only screen and (max-width: 810px) {
+	.logo-gracias{
+		margin-left:15%;
+	margin-top:-250px;
+	}
+	.boton-gracias{
+	margin-left:-10px;
+	}
+}
+@media only screen and (max-width: 770px) {
+	.logo-gracias{
+	margin-top:-250px;
+}
+}
+@media only screen and (max-width: 720px) {
+	.logo-gracias{
+	margin-left:10%;
+	margin-top:-250px;
+	}
+	.boton-gracias{
+	margin-left:-5px;;
+	}
+}
+@media only screen and (max-width: 690px) {
+	.logo-gracias{
+	margin-left:0;
+	margin-top:-250px;
+}
+}
+@media only screen and (max-width: 658px) {
+	.logo-gracias{
+	margin-left:0;
+	margin-top:-100px;
+	}
+	.boton-gracias{
+	margin-top:20px;
+	}
+}
+
+/* less than 640px */
+@media only screen and (max-width: 640px) {
+	.logo-gracias{
+	margin-left:0;
+	margin-top:-100px;
+	}
+	.boton-gracias{
+	margin-top:20px;
+	}
+	h1 { font-size:42px; }
+	p { font-size:22px; }
+	.content {
+		width: 78%;
+		min-width: 78%;
+		padding: 0px 70px;
+		margin: auto;
+	}
+	
+	.wrapper.about {
+		background:url(../images/bg_mobile_about.jpg) no-repeat center center #f88421 !important;
+	}
+	.wrapper.about h1, .wrapper.about p { padding:0px; }
+	.wrapper.about { background-image:none; }
+	.wrapper.about h1 { margin-bottom:13px;margin-top:-12px; }
+	.wrapper.about p { line-height: 28px;font-size: 20px;margin-bottom:30px; }
+	
+	.topmenu {
+		height:auto;
+		min-width:0px;
+		
+		display:block;
+	}
+	
+	.topmenu .header_container { margin-top:0px; }
+	.topmenu .header_container { height:auto; }
+	.topmenu .header_content {
+		width:78%;
+		min-width:0px;
+		padding-bottom: 1px;
+	}
+	
+	.topmenu .header_content .left,
+	.topmenu .header_content .right {
+		float:none;
+		clear:both;
+	}
+	
+	.topmenu .header_content .left {
+		margin-bottom:20px;
+		
+	}
+	
+	.topmenu .header_content .right {
+		padding-top:27px;
+		padding-bottom:20px;
+		border-top:3px solid #DDDDDD;
+		display:none;
+	}
+	
+	.topmenu .header_content .right a.menu_item {
+		margin-left:0px;
+		margin-right:17px;
+	}
+	
+	.topmenu .header_content .right .btn_share_container {
+		float:right;
+	}
+	
+	.topmenu .header_content .left .mobile_menu_button { display:block; }
+	
+	.wrapper.hero.small {
+		max-height:650px;
+		min-height:650px;
+		background:url(../images/starburst_mobile.jpg) no-repeat center 65px;
+	}
+	
+	.wrapper.hero.small .content {
+		height:283px;
+		min-height:283px;
+	}
+	
+	.wrapper.hero.small .content .top_intro {
+		top:0px !important;
+		margin-top:-24px !important;
+		width:86.5%;
+	}
+	
+	.wrapper.hero .brown-table {
+		height:26px;
+		background-size:149px 26px;
+	}
+	
+	.wrapper.hero .toys {
+		bottom:26px;
+	}
+	
+	.wrapper.hero .toys img {
+		margin-left:-164px;
+		left:0px;
+		width:970px;
+		
+	}
+	
+	.wrapper.who h1 { margin-bottom:12px; margin-top:-9px; }
+	.wrapper.who p { line-height:28px;margin-bottom:36px; }
+	
+	
+	.wrapper.buy { background-image:none; }
+	.wrapper.buy h1 { margin-top:21px;margin-bottom:14px; }
+	.wrapper.buy p { font-size: 20px;line-height: 28px;margin-bottom: 36px;width: 85%;word-spacing: 1px; }
+	.wrapper.buy .button.orange.buy_now { font-size:44px;padding:27px 10px; }
+	
+	.wrapper.share { }
+	.wrapper.share h1 { margin-top:-36px;font-size:41px; }
+	
+	.wrapper.share .footer .footer_content {width:78%;min-width:78%; } 
+	.wrapper.share .footer .footer_content .right { font-size:12px;width:100%; }
+	.wrapper.share .footer .footer_content .right .footer_gototop { display:block;top:-13px;background-size:43px 99px;background-position:center -1px; }
+	.wrapper.share .footer .footer_content .right .footer_gototop .cover { background-size:43px 99px;background-position:center -56px; }
+	
+	.button {
+		font-size:37px;
+	}
+}
+
+/* less than 320px */
+/*@media only screen and (max-width: 320px) {
+	.wrapper {
+		height:392px !important;
+	}
+	h1 { 
+		font-size:20px; 
+	}
+	p { 
+		font-size:11px;
+		line-height:15px !important; 
+		letter-spacing:1px !important;
+		word-spacing:1px !important;
+	}
+	.wrapper.about p,
+	.wrapper.who p {
+		line-height: 18px;
+		margin-bottom: 20px;
+	}
+	.wrapper.who h1 {
+		word-spacing:0px;
+	}
+	
+	.wrapper.buy p {
+		margin-bottom:20px;
+	}
+	
+	.wrapper.hero { 
+		min-height:283px;
+	}
+	.wrapper.hero .content { 
+		min-height:142px;
+	}
+	.wrapper.hero .brown-table {
+		height:13px;
+		background-size:75px 13px;
+	}
+	.wrapper.hero {
+		height:283px !important;
+	}
+	.wrapper.hero .toys {
+		bottom:13px;
+	}
+	.wrapper.hero .toys img {
+		margin-left:-83px;
+		left:0px;
+		width:485px;
+	}
+	.wrapper.hero .content .top_intro {
+		width:277px;
+		height:142px;
+		margin-left:-138px !important;
+		margin-top:-105px !important;
+	}
+	.wrapper.hero {
+		height:570px;
+		min-height: 0px;
+		max-height: 764px;
+	}
+	
+	
+	
+	.wrapper.about .ipad {
+		width:244px;
+		height:178px;
+		background-size:244px 178px;
+		margin-left:-122px;
+	}
+	
+	.wrapper.about .carousel {
+		padding-top:15px;
+		height:auto;
+	}
+	
+	.wrapper.about .carousel .carousel_slides {
+		width:206px;
+		height:auto;
+	}
+	
+	.wrapper.about .carousel .carousel_slides img {
+		width:100%;
+		height:auto;
+	}
+	
+	.button {
+		width:189px;
+		padding:14px 10px;
+		font-size:18px;
+		margin-bottom:9px;
+		background-size:11px 16px;
+	}
+	.button.orange.buy_now {
+		width:179px;
+		padding:15px 0px;
+		font-size:23px;
+	}
+	
+	.wrapper.share .btn_share,
+	.wrapper.share .btn_share .cover {
+		width: 32px;
+		height: 32px;
+		background-size:600px 1050px;
+	}
+	
+	.wrapper.share .btn_share.facebook {
+		background-position: -349px -748px;
+	}
+	.wrapper.share .btn_share.facebook .cover {
+		background-position: -349px -702px;
+	}
+	
+	.wrapper.share .btn_share.twitter {
+		background-position: -388px -748px;
+	}
+	.wrapper.share .btn_share.twitter .cover {
+		background-position: -388px -702px;
+	}
+	
+	.wrapper.share .btn_share.google {
+		background-position: -427px -748px;
+	}
+	.wrapper.share .btn_share.google .cover {
+		background-position: -427px -702px;
+	}
+	
+	.wrapper.share .footer .footer_content {
+		width: 78%;
+		min-width: 78%;
+		padding: 15px 0px;
+	}
+	.wrapper.share .footer .footer_content .right {
+		font-size:7px;
+		letter-spacing:0px;
+	}
+}*/
+
+
+
+/* less than 3222220px */
+@media only screen and (max-width: 600px) {
+	.logo-gracias{
+	margin-top:-100px;
+	width:99% !important;
+	}
+}
+@media only screen and (max-width: 540px) {
+	.logo-gracias{
+	margin-left:0;
+	margin-top:-100px;
+	}
+	.boton-gracias{
+	margin-top:20px;
+	}
+	h1 { font-size:20px; }
+	p { font-size:11px;word-spacing:-1px; }
+	.content {
+		width: 78%;
+		min-width: 78%;
+		padding: 0px 35px;
+		margin: auto;
+	}
+	
+	.wrapper.about {
+		background-size:540px 662px !important;
+	}
+	
+	.wrapper.about h1, .wrapper.about p { padding:0px; }
+	.wrapper.about { background-image:none; }
+	.wrapper.about h1 { margin-bottom:6px;margin-top:-10px;}
+	.wrapper.about p { line-height: 14px;font-size: 10px;margin-bottom:15px; }
+	
+	
+	.wrapper.about .ipad {
+		width:242px;
+		height:176px;
+		background-size:242px 176px;
+		margin-left:-119px;
+		margin-top:-2px;
+	}
+	.wrapper.about .carousel {
+		padding-top:15px;
+		height:160px;
+		overflow:hidden;
+	}
+	
+	.wrapper.about .carousel .carousel_slides {
+		width:200px;
+		height:auto;
+	}
+	
+	.wrapper.about .carousel .carousel_slides ul li,
+	.wrapper.about .carousel .carousel_slides img {
+		width:200px !important;
+		height:140px !important;
+	}
+	
+	.topmenu {
+		height:auto;
+		min-width:0px;
+		
+		display:block;
+	}
+	
+	.topmenu .header_container { margin-top:0px; }
+	.topmenu .header_container { height:auto; }
+	.topmenu .header_content {
+		width:78%;
+		min-width:0px;
+		padding-bottom: 1px;
+	}
+	
+	.topmenu .header_content {
+		padding-top:16px;
+	}
+	
+	.topmenu .header_content .left,
+	.topmenu .header_content .right {
+		float:none;
+		clear:both;
+	}
+	
+	.topmenu .header_content .left .title { font-size:17px; }
+	
+	.topmenu .header_content .left{
+		margin-bottom: 16px;
+	}
+	
+	.topmenu .header_content .right {
+		padding-top:16px;
+		padding-bottom:10px;
+		border-top:2px solid #DDDDDD;
+		display:none;
+		margin-bottom:9px;
+	}
+	
+	.topmenu .header_content .right a.menu_item {
+		margin-left:0px;
+		margin-right:8px;
+		font-size:12px;
+	}
+	
+	.topmenu .header_content .right .btn_share_container {
+		margin-top:-2px;
+	}
+	
+	.topmenu .header_content .right a.btn_share {
+		background-size:600px 1050px !important;
+		background: url(../images/assets.png) no-repeat;
+		width:18px;
+		height:18px;
+	}
+	
+	.topmenu .header_content .right a.btn_share.facebook {
+		background-position:-348px -81px;
+		margin-right:3px;
+	}
+	
+	.topmenu .header_content .right a.btn_share .cover {
+		background-size:600px 1050px  !important;
+		background: url(../images/assets.png) no-repeat;
+		display:none;
+	}
+	
+	.topmenu .header_content .right a.btn_share.facebook .cover {
+		background-position:-348px -113px;
+	}
+	
+	.topmenu .header_content .right a.btn_share.twitter {
+		background-position: -368px -81px;
+		margin-right:3px;
+	}
+	
+	.topmenu .header_content .right a.btn_share.twitter .cover {
+		background-position:-368px -113px;
+	}
+	
+	.topmenu .header_content .right a.btn_share.google {
+		background-position: -387px -81px;
+	}
+	
+	.topmenu .header_content .right a.btn_share.google .cover {
+		background-position:-387px -113px;
+	}
+	
+	.topmenu .header_content .left .mobile_menu_button {
+		float:right;
+		width:27px;
+		height:13px;
+		background-position: -431px -78px;
+		background-size:600px 1050px;
+		margin-top:3px;
+		display:block;
+	}
+	
+	.topmenu .header_content .left .mobile_menu_button .cover {
+		background-position: -431px -50px;
+		background-size:600px 1050px;
+	}
+	
+	.wrapper.hero.small {
+		max-height: 325px;
+		min-height: 325px;
+		background-size:320px 293px;
+		background:url(../images/starburst_mobile.jpg) no-repeat center -115px;
+	}
+	
+	.wrapper.hero { margin-top: 54px; }
+	
+	.wrapper.hero {
+		
+		
+	}
+	
+	.wrapper.hero.small .content {
+		height:141px;
+		min-height:141px;
+	}
+	
+	.wrapper.hero.small .content .top_intro {
+		top:0px !important;
+		margin-top:-12px !important;
+	}
+	
+	.wrapper.hero .brown-table {
+		height:13px;
+		background-size:75px 13px;
+	}
+	
+	.wrapper.hero .toys {
+		bottom:13px;
+	}
+	
+	.wrapper.hero .toys img {
+		margin-left:-82px;
+		left:0px;
+		width:485px;
+	}
+	
+	.wrapper.who h1 { margin-bottom:8px; margin-top:3px;word-spacing:-1px; }
+	.wrapper.who p { line-height:14px;margin-bottom:16px; }
+	
+	
+	.wrapper.buy { background-image:none; }
+	.wrapper.buy h1 { margin-top:0px;margin-bottom:6px; }
+	.wrapper.buy p { font-size: 10px;line-height: 14px;margin-bottom: 16px;width: 95%;word-spacing:-1px; }
+	.wrapper.buy .button_container { padding-bottom:0px; }
+	.wrapper.buy .button.orange.buy_now { font-size:44px;padding:27px 10px; }
+	
+	.wrapper.share { background-size:640px 351px; }
+	.wrapper.share h1 { margin-top:-18px;font-size:20px;margin-bottom:17px; }
+	
+	.wrapper.share .footer {
+		border-top:2px solid #e8842c;
+	}
+	.wrapper.share .footer .footer_content { padding: 13px 0px; } 
+	.wrapper.share .footer .footer_content .right { font-size:7px;width:100%;letter-spacing:0px;padding-top:0px; }
+	.wrapper.share .footer .footer_content .right .footer_gototop { 
+		display:block;
+		top:-6px;
+		background-size:20px 46px;
+		background-position:center 0px; 
+		width:20px;
+		height:20px;
+	}
+	.wrapper.share .footer .footer_content .right .footer_gototop .cover {
+		background-size:20px 46px;
+		background-position:center -26px; 
+		width:20px;
+		height:20px;
+	}
+	
+	.wrapper.share .btn_share_container { width:110px; }
+	
+	.wrapper.share .btn_share { margin-right:7px; }
+	
+	.wrapper.share .btn_share,
+	.wrapper.share .btn_share .cover {
+		width: 32px;
+		height: 32px;
+		background-size:600px 1050px;
+	}
+	
+	.wrapper.share .btn_share.facebook {
+		background-position: -349px -748px;
+	}
+	.wrapper.share .btn_share.facebook .cover {
+		background-position: -349px -702px;
+	}
+	
+	.wrapper.share .btn_share.twitter {
+		background-position: -388px -748px;
+	}
+	.wrapper.share .btn_share.twitter .cover {
+		background-position: -388px -702px;
+	}
+	
+	.wrapper.share .btn_share.google {
+		background-position: -427px -748px;
+	}
+	.wrapper.share .btn_share.google .cover {
+		background-position: -427px -702px;
+	}
+	
+	
+	.button {
+		width:189px;
+		padding:12px 10px;
+		font-size:18px;
+		margin-bottom:9px;
+		background-size:11px 16px;
+	}
+	.wrapper.buy .button.orange.buy_now {
+		width:179px;
+		padding:15px 0px;
+		font-size:23px;
+		background-size:12px 18px !important;
+	}
+	
+	.button {
+		background-position: 88% 50%;
+	}
+	.button:hover {
+		background-position:90% 50%;
+	}
+}
+
+
+@media only screen and (max-width: 540px) {
+	.wrapper.hero.small {
+		background-size:540px 494px;
+		background:url(../images/starburst_mobile.jpg) no-repeat center -100px;
+	}
+	.wrapper.hero.small .content .top_intro {
+		margin-top: -30px !important;
+	}
+	.wrapper.hero .toys img {
+		margin-left: -65px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.wrapper.hero .toys img {
+		margin-left:-82px;
+		left:0px;
+		width:485px;
+	}
+	.wrapper.about {
+		background-size:320px 392px !important;
+	}
+}

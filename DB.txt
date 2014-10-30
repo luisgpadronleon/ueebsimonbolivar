@@ -1,0 +1,122 @@
+-- phpMyAdmin SQL Dump
+-- version 2.10.3
+-- http://www.phpmyadmin.net
+-- 
+-- Servidor: localhost
+-- Tiempo de generación: 28-10-2014 a las 20:09:59
+-- Versión del servidor: 5.0.51
+-- Versión de PHP: 5.2.6
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+-- 
+-- Base de datos: `sistema_escolar`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- Estructura de tabla para la tabla `alumnos`
+-- 
+
+CREATE TABLE `alumnos` (
+  `id` int(11) NOT NULL auto_increment,
+  `nombre` varchar(255) default NULL,
+  `cedula` varchar(255) default NULL,
+  `edad` varchar(255) default NULL,
+  `ingreso` varchar(255) default NULL,
+  `grado` varchar(255) default NULL,
+  `turno` varchar(255) default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=24 ;
+
+-- 
+-- Volcar la base de datos para la tabla `alumnos`
+-- 
+
+INSERT INTO `alumnos` VALUES (1, 'Luis Gerardo Padron Leon', '12373495', '39', '1995', '5', 'maÃ±ana');
+INSERT INTO `alumnos` VALUES (2, 'fgdfgnfg', 'ncxvbncv', 'bncvbncvbn', 'cvbncvbn', 'cvbnc', 'vbncvbncvbn');
+INSERT INTO `alumnos` VALUES (6, 'dfgsdfgsdfg', 'dfgsdfgs', 'dfgsdfg', 'sdfgsdfg', 'sdfgsdfg', 'sdfgsdfg');
+INSERT INTO `alumnos` VALUES (7, 'xbncvbncv', 'bncvbncvbn', 'cvbncvbncv', 'bncvb', 'ncvbncv', 'cvbncvbncvbn');
+INSERT INTO `alumnos` VALUES (8, 'vbncnb', 'cncvbn', 'cvbncvbncvcvbncv', 'cvbncvbncv', 'cvbncvbn', 'cvbncvbncvb');
+INSERT INTO `alumnos` VALUES (9, 'vbncnb', 'cncvbn', 'cvbncvbncvcvbncv', 'cvbncvbncv', 'cvbncvbn', 'cvbncvbncvb');
+INSERT INTO `alumnos` VALUES (10, '1', '12373495', '12', '1995', '1', '1');
+INSERT INTO `alumnos` VALUES (11, '1', '12373495', '12', '1995', '1', '1');
+INSERT INTO `alumnos` VALUES (12, '2', '2', '2', '2', '2', '2');
+INSERT INTO `alumnos` VALUES (13, '2', '2', '2', '2', '2', '2');
+INSERT INTO `alumnos` VALUES (14, '3', '3', '3', '3', '3', '3');
+INSERT INTO `alumnos` VALUES (15, '3', '3', '3', '3', '3', '3');
+INSERT INTO `alumnos` VALUES (16, '4', '4', '4654654', '4', '4', '4');
+INSERT INTO `alumnos` VALUES (17, '4', '4', '4654654', '4', '4', '4');
+INSERT INTO `alumnos` VALUES (18, '5', '546545', '5', '5', '5', '546546');
+INSERT INTO `alumnos` VALUES (19, '5', '546545', '5', '5', '5', '546546');
+INSERT INTO `alumnos` VALUES (20, '111111111111111', '111111111111', '11111111111111', '1111111111111111', '111111111111111', '1111111111');
+INSERT INTO `alumnos` VALUES (21, '111111111111111', '111111111111', '11111111111111', '1111111111111111', '111111111111111', '1111111111');
+INSERT INTO `alumnos` VALUES (22, '2222222222222222', '22222222222222', '22222222222222222', '2222222222222222222', '22222222222222222', '2222222222222222');
+INSERT INTO `alumnos` VALUES (23, NULL, NULL, NULL, NULL, NULL, NULL);
+
+-- --------------------------------------------------------
+
+-- 
+-- Estructura de tabla para la tabla `padmin`
+-- 
+
+CREATE TABLE `padmin` (
+  `id` int(11) NOT NULL auto_increment,
+  `nombre` varchar(255) default NULL,
+  `cedula` varchar(255) default NULL,
+  `cargo` varchar(255) default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+
+-- 
+-- Volcar la base de datos para la tabla `padmin`
+-- 
+
+INSERT INTO `padmin` VALUES (3, 'sdfsdfsdf khsijhsij', '65465465465465 ', 'dfsdfsgdfgs');
+INSERT INTO `padmin` VALUES (2, 'lplplplplplplp', '84968465', 'cargo');
+
+-- --------------------------------------------------------
+
+-- 
+-- Estructura de tabla para la tabla `pdocente`
+-- 
+
+CREATE TABLE `pdocente` (
+  `id` int(11) NOT NULL auto_increment,
+  `nombre` varchar(255) default NULL,
+  `cedula` varchar(255) default NULL,
+  `direccion` varchar(255) default NULL,
+  `telefono` varchar(255) default NULL,
+  `grado` varchar(255) default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
+
+-- 
+-- Volcar la base de datos para la tabla `pdocente`
+-- 
+
+INSERT INTO `pdocente` VALUES (3, 'MAESTRA 1222222', '12345678', 'ADF SDFSD FSDFSDFS DFSDFS DFSDFSF ', '32156466', '5');
+INSERT INTO `pdocente` VALUES (4, 'MAESTRA 1', '12345678', 'ADF SDFSD FSDFSDFS DFSDFS DFSDFSF ', '32156466', '5');
+INSERT INTO `pdocente` VALUES (5, 'MAESTRA 1', '12345678', 'ADF SDFSD FSDFSDFS DFSDFS DFSDFSF ', '32156466', '5');
+INSERT INTO `pdocente` VALUES (6, '11111', '11111', '11111', '11111', '11');
+
+-- --------------------------------------------------------
+
+-- 
+-- Estructura de tabla para la tabla `usuario`
+-- 
+
+CREATE TABLE `usuario` (
+  `id_usuario` int(11) NOT NULL auto_increment,
+  `usuario` varchar(50) NOT NULL,
+  `clave` int(11) NOT NULL,
+  `nombre` varchar(255) NOT NULL,
+  PRIMARY KEY  (`id_usuario`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+-- 
+-- Volcar la base de datos para la tabla `usuario`
+-- 
+
+INSERT INTO `usuario` VALUES (1, 'admin', 123, 'Luis Padron');
